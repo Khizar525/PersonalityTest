@@ -44,6 +44,20 @@ public class HomeController : Controller
                 Name = "Desert",
                 ImagePath = "/images/desert.svg",
                 Description = "A warm, expansive desert"
+            },
+            new PersonalityImage
+            {
+                Id = "stars",
+                Name = "Stars",
+                ImagePath = "/images/stars.svg",
+                Description = "A twinkling night sky filled with stars"
+            },
+            new PersonalityImage
+            {
+                Id = "rainbow",
+                Name = "Rainbow",
+                ImagePath = "/images/rainbow.svg",
+                Description = "A vibrant rainbow across the sky"
             }
         };
         return View(images);
@@ -91,6 +105,22 @@ public class HomeController : Controller
                 Title = "The Free Spirit",
                 Description = "You are independent, adaptable, and resilient. Like the desert, you thrive in solitude and have a unique, vibrant energy that emerges in the right conditions.",
                 Traits = "Independent, Adaptable, Resilient, Adventurous"
+            },
+            "stars" => new PersonalityResult
+            {
+                ImageName = "Stars",
+                ImagePath = "/images/stars.svg",
+                Title = "The Dreamer",
+                Description = "You are imaginative, visionary, and inspired. Like the stars, you shine brightly in the darkness and inspire others with your creativity and sense of wonder.",
+                Traits = "Imaginative, Visionary, Creative, Inspiring"
+            },
+            "rainbow" => new PersonalityResult
+            {
+                ImageName = "Rainbow",
+                ImagePath = "/images/rainbow.svg",
+                Title = "The Optimist",
+                Description = "You are joyful, colorful, and full of hope. Like a rainbow, you bring color and happiness wherever you go, and you have the unique ability to find beauty after every storm.",
+                Traits = "Joyful, Optimistic, Vibrant, Hopeful"
             },
             _ => new PersonalityResult
             {

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#F3E5F5" rx="15"/>
+  <polygon points="40,80 48,60 56,80 76,80 60,92 66,112 48,100 30,112 36,92 20,80" fill="#FFD700" stroke="#FFA000" stroke-width="1"/>
+  <polygon points="100,40 108,20 116,40 136,40 120,52 126,72 108,60 90,72 96,52 80,40" fill="#FFD700" stroke="#FFA000" stroke-width="1"/>
+  <polygon points="160,70 168,50 176,70 196,70 180,82 186,102 168,90 150,102 156,82 140,70" fill="#FFD700" stroke="#FFA000" stroke-width="1"/>
+  <polygon points="70,140 78,120 86,140 106,140 90,152 96,172 78,160 60,172 66,152 50,140" fill="#FFD700" stroke="#FFA000" stroke-width="1"/>
+  <polygon points="145,135 153,115 161,135 181,135 165,147 171,167 153,155 135,167 141,147 125,135" fill="#FFD700" stroke="#FFA000" stroke-width="1"/>
+  <circle cx="100" cy="100" r="3" fill="#FFF9C4"/>
+  <text x="100" y="195" text-anchor="middle" font-family="Arial" font-size="14" fill="#333" font-weight="bold">Stars</text>
+</svg>
