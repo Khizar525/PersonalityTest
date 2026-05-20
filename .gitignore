@@ -1,0 +1,15 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+.vscode/
+## Visual Studio
+*.sln.ide/
+.vs/
+## NPM
+node_modules/
+## OS files
+.DS_Store
+Thumbs.db

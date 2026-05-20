@@ -1,0 +1,52 @@
+﻿@model List<PersonalityImage>
+@{
+    ViewData["Title"] = "Personality Test";
+}
+
+<div class="text-center">
+    <h1 class="display-4 mb-3">Which Image Attracts You First?</h1>
+    <p class="lead mb-5">Look at the four images below. The first one that catches your eye reveals something about your personality!</p>
+
+    <div class="row justify-content-center g-4">
+        @foreach (var image in Model)
+        {
+            <div class="col-md-3 col-sm-6">
+                <form asp-action="Analyze" method="post" style="cursor: pointer;">
+                    <input type="hidden" name="imageId" value="@image.Id" />
+                    <button type="submit" class="btn btn-light p-0 border-0 image-option" style="background: none;">
+                        <div class="card shadow-sm h-100 image-card">
+                            <div class="card-img-top p-3 bg-light">
+                                <img src="@image.ImagePath" alt="@image.Name" class="img-fluid" style="max-height: 180px;" />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">@image.Name</h5>
+                                <p class="card-text text-muted small">@image.Description</p>
+                            </div>
+                        </div>
+                    </button>
+                </form>
+            </div>
+        }
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .image-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .image-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15) !important;
+        }
+        .image-option {
+            width: 100%;
+            text-align: left;
+        }
+        .image-option:focus {
+            outline: none;
+        }
+    </style>
+}
