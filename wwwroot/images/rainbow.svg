@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#FFF3E0" rx="15"/>
+  <path d="M20,160 Q100,10 180,160" fill="none" stroke="#FF0000" stroke-width="12"/>
+  <path d="M27,158 Q100,22 173,158" fill="none" stroke="#FF9800" stroke-width="12"/>
+  <path d="M34,156 Q100,34 166,156" fill="none" stroke="#FFEB3B" stroke-width="12"/>
+  <path d="M41,154 Q100,46 159,154" fill="none" stroke="#4CAF50" stroke-width="12"/>
+  <path d="M48,152 Q100,58 152,152" fill="none" stroke="#2196F3" stroke-width="12"/>
+  <path d="M55,150 Q100,70 145,150" fill="none" stroke="#3F51B5" stroke-width="12"/>
+  <path d="M62,148 Q100,82 138,148" fill="none" stroke="#9C27B0" stroke-width="12"/>
+  <ellipse cx="28" cy="170" rx="15" ry="8" fill="#A5D6A7" opacity="0.6"/>
+  <ellipse cx="172" cy="170" rx="15" ry="8" fill="#A5D6A7" opacity="0.6"/>
+  <text x="100" y="195" text-anchor="middle" font-family="Arial" font-size="14" fill="#333" font-weight="bold">Rainbow</text>
+</svg>
